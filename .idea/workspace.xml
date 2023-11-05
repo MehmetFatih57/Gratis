@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Amazon/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/JSUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/amazon.feature" afterDir="false" />
-    </list>
+    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XZ0YO3glb22881rkg2tnIttSUF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -165,7 +148,26 @@
       <option name="presentableId" value="Default" />
       <updated>1698821343287</updated>
     </task>
+    <task id="LOCAL-00001" summary="amazon">
+      <created>1699180181141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699180181141</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

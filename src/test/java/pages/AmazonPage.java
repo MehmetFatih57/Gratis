@@ -3,80 +3,64 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utilities.BrowserUtilities;
-import utilities.ConfigurationReader;
 import utilities.Driver;
-import utilities.ReusableMethods;
 
-public class US_026_UI_page {
-    public US_026_UI_page() {
+public class AmazonPage {
+    public AmazonPage() {
 
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    US_026_UI_page loginLocators = new US_026_UI_page();
+    @FindBy(xpath = "//input[@id= \"sp-cc-accept\"]")
+    public WebElement cookiesAccept;
 
-    @FindBy(xpath = "//a[@href='/contact']")
-    public WebElement contactButton;
+    @FindBy(xpath = "//a[@id= 'nav-link-accountList']")
+    public WebElement accountList;
 
-    @FindBy(xpath = "//input[@placeholder='Name']")
-    public WebElement nameInputContact;
+    @FindBy(xpath = "//span[@class= 'nav-action-inner']")
+    public WebElement login;
 
-    @FindBy(xpath = "//input[@placeholder='Email']")
-    public WebElement emailInputContact;
+    @FindBy(xpath = "//input[@type= \"email\"]")
+    public WebElement emailBox;
 
-    @FindBy(xpath = "//input[@placeholder='Subject']")
-    public WebElement subjectInputContact;
+    @FindBy(xpath = "//input[@type= \"submit\"]")
+    public WebElement submitButton;
 
-    @FindBy(xpath = "//textarea[@placeholder='Message']")
-    public WebElement messageInputContact;
+    @FindBy(xpath = "//input[@id=\"ap_password\"]")
+    public WebElement passwordBox;
 
-    @FindBy(xpath = "//button[@id='register-submit']")
-    public WebElement sendButtonContact;
+    @FindBy(xpath = "//input[@id=\"signInSubmit\"]")
+    public WebElement passwordButton;
 
-    @FindBy(xpath = "//*[contains(text(),'Your message has been received')]")
-    public WebElement successfulContactMessage;
-
-    @FindBy (xpath = "//*[text()='Items&Titles']")
-    public WebElement itemsTitlesMenu;
-
-    @FindBy (xpath = "//a[@href='/c-message' and @class='dropdown-item']")
-    public WebElement messagesButtonOnDDM;
+    @FindBy(xpath = "//input[@id=\"twotabsearchtextbox\"]")
+    public WebElement searchBox;
 
 
-    public void loginAs(String userRole) {
-        Driver.getDriver().get(ConfigurationReader.getProperty("medunnaUrl"));
-        ReusableMethods.waitFor(1);
-        loginLocators.userIconButton.click();
-        ReusableMethods.waitFor(1);
-        loginLocators.signInButton.click();
-        ReusableMethods.waitFor(1);
-        switch (userRole) {
-            case "admin":
-                loginLocators.usernameOnSignIn.sendKeys(ConfigurationReader.getProperty("adminUserNameRk"));
-                loginLocators.passwordOnSignIn.sendKeys(ConfigurationReader.getProperty("adminPwdRk"));
-                BrowserUtilities.clickWithJS(loginLocators.signInButtonOnSignIn);
-                break;
-            case "patient":
-                loginLocators.usernameOnSignIn.sendKeys(ConfigurationReader.getProperty("patientUsername"));
-                loginLocators.passwordOnSignIn.sendKeys(ConfigurationReader.getProperty("passWordRk"));
-                BrowserUtilities.clickWithJS(loginLocators.signInButtonOnSignIn);
-                break;
-            case "staff":
-                loginLocators.usernameOnSignIn.sendKeys(ConfigurationReader.getProperty("staffUsername"));
-                loginLocators.passwordOnSignIn.sendKeys(ConfigurationReader.getProperty("passWordRk"));
-                BrowserUtilities.clickWithJS(loginLocators.signInButtonOnSignIn);
-                break;
-            case "Physician":
-                loginLocators.usernameOnSignIn.sendKeys(ConfigurationReader.getProperty("physicianUsername"));
-                loginLocators.passwordOnSignIn.sendKeys(ConfigurationReader.getProperty("passWordRk"));
-                BrowserUtilities.clickWithJS(loginLocators.signInButtonOnSignIn);
-                break;
-            case "User":
-                loginLocators.usernameOnSignIn.sendKeys(ConfigurationReader.getProperty("userUsername"));
-                loginLocators.passwordOnSignIn.sendKeys(ConfigurationReader.getProperty("passWordRk"));
-                BrowserUtilities.clickWithJS(loginLocators.signInButtonOnSignIn);
-                break;
-        }
-    }
+    @FindBy(xpath = "nav-search-submit-button")
+    public WebElement searchBoxButton;
+
+    @FindBy(xpath = "//span[@class = \"a-dropdown-prompt\"]")
+    public WebElement dropDownMenu;
+
+    @FindBy (id = "a-autoid-0-announce")
+    public WebElement getDropDownMenu2;
+
+
+    @FindBy(xpath = "//a[@id= \"s-result-sort-select_1\"]")
+    public WebElement lowToHigh;
+
+
+    @FindBy(xpath = "//img[@class=\"s-image\"] [1]")
+    public WebElement firstProduct;
+
+    @FindBy(xpath = "//input[@id=\"add-to-cart-button\"]")
+    public WebElement addToCard;
+
+    @FindBy(xpath = "//span [@class = \"a-size-medium-plus a-color-base sw-atc-text a-text-bold\"]")
+    public WebElement addToCartAssert;
+
+    @FindBy(xpath = "//input[@title= \"Sil\"]")
+    public WebElement productDelete;
+
+
 }

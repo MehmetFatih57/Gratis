@@ -1,4 +1,4 @@
-package runners;
+package Amazon.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -15,8 +15,9 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@Medunna_US_018",
+        tags = "@Amazon_US_01",
         dryRun =false
 )
 public class TestRunner {
+
 }

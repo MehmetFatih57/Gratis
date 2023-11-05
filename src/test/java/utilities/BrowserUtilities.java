@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.Random;
+
 import static utilities.Driver.driver;
 
 public class BrowserUtilities {

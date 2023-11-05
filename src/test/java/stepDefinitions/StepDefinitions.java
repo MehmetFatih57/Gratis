@@ -99,6 +99,7 @@ public class StepDefinitions {
 
 
         Assert.assertTrue(amazon.addToCartAssert.getText().contains("Sepete Eklendi"));
+        // test başarılı oldu.
 
     }
 }

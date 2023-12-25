@@ -61,27 +61,5 @@ public class Driver {
         }
     }
 
-    //    Driver.selectByVisibleText(dropdown element, "CHECKING-91303-116.98$")
-    public static void selectByVisibleText(WebElement element, String text) {
-        Select objSelect = new Select(element);
-        objSelect.selectByVisibleText(text);
-    }
-    //    Parameter1 : WebElement
-//    Parameter2:  int
-//    Driver.selectByIndex(dropdown element, 1)
-    public static void selectByIndex(WebElement element, int index) {
-        Select objSelect = new Select(element);
-        objSelect.selectByIndex(index);
-    }
-    //    Parameter1 : WebElement
-//    Parameter2:  String
-//    Driver.selectByIndex(dropdown element, "91303")
-    public static void selectByValue(WebElement element, String value) {
-        Select objSelect = new Select(element);
-        List<WebElement> elementCount = objSelect.getOptions();
-        objSelect.selectByValue(value);
-        System.out.println("number of elements: " + elementCount.size());
-    }
-
 
 }

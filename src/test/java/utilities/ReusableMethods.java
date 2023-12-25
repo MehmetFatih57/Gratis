@@ -174,6 +174,10 @@ public class ReusableMethods {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("window.scrollBy(0,2500)");
         waitFor(2);
+
+    //sırma 178-190
+
+
     }
 
 }

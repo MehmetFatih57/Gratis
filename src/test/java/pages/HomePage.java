@@ -8,7 +8,7 @@ import utilities.Driver;
 
 public class HomePage {
     public HomePage() {PageFactory.initElements(Driver.getDriver(), this);}
-    //@FindBy(xpath = "//table/thead/tr/th[1]") public WebElement name;                 ORNEK
+    //@FindBy(xpath = "//table/thead/tr/th[1]") public WebElement name; ORNEK  !!!!ctrl+alt+L YAPMIYORUZ sayfa yapisi bozulmasin
 
 
 
@@ -18,10 +18,7 @@ public class HomePage {
 
 
 
-
-
-    //US01  20-100 arasi
-
+    //US01  21-100 arasi
 
 
 

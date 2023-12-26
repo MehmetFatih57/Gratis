@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         //rerun ile belirttiğimiz dosyada fail olan senaryolar tutulur.
         features = "src/test/resources/features",
         glue = {"stepDefinition"},
-        tags = "@negatif",
+        tags = "",           //!!!KULLANDIKTAN SONRA BOS BIRAKALIM
         dryRun = false,//-->true seçersek scenarioları kontrol eder browser'ı çalıştırmaz
         monochrome = true//-->true kullanırsak konsoldaki çıktılar tek renk(siyah) olur
 

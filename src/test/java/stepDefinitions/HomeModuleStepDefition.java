@@ -1,5 +1,8 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.*;
+import utilities.ReusableMethods;
+
 public class HomeModuleStepDefition {
     //50'ye kadar import kaymasi veya degisken tanimla
 
@@ -562,4 +565,50 @@ public class HomeModuleStepDefition {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @Then("Kullanici {string} {string} ile giris yapar.")
+    public void kullanici_ile_giris_yapar(String email, String sifre) {
+        ReusableMethods.login(email, sifre);
+    }
 }

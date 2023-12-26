@@ -5,7 +5,7 @@ import utilities.Driver;
 
 public class HeaderPage {
     public HeaderPage() {PageFactory.initElements(Driver.getDriver(), this);}
-    //@FindBy(xpath = "//table/thead/tr/th[1]") public WebElement name;                 ORNEK
+    //@FindBy(xpath = "//table/thead/tr/th[1]") public WebElement name; ORNEK  !!!!ctrl+alt+L YAPMIYORUZ sayfa yapisi bozulmasin
 
 
 
@@ -17,8 +17,8 @@ public class HeaderPage {
 
 
 
-    //US04  20-100 arasi
 
+    //US04  21-100 arasi
 
 
 
@@ -99,6 +99,21 @@ public class HeaderPage {
 
 
     //US10  101-180 arasi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

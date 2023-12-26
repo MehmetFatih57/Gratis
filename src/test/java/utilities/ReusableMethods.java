@@ -16,6 +16,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.function.Function;
 
+import static org.junit.Assert.assertTrue;
+
 public class ReusableMethods {
     /*HOW DO YOU GET SCREENSHOT?
      * I use getScreenShotAs method to take a screenshot in selenium in my framework
@@ -186,8 +188,8 @@ public class ReusableMethods {
         homePage.sifre.sendKeys(password);
         JSUtils.clickElementByJS(homePage.girisButon);
     }
+   //importtan kayan bosluk icin 219'a kadar
 
-    //190-240 Sirma
 
 
 
@@ -215,6 +217,7 @@ public class ReusableMethods {
 
 
 
+    //220-270 Sirma
 
 
 
@@ -238,7 +241,6 @@ public class ReusableMethods {
 
 
 
-    //241-290 Esra
 
 
 
@@ -266,6 +268,7 @@ public class ReusableMethods {
 
 
 
+    //271-320 Esra
 
 
 
@@ -288,7 +291,6 @@ public class ReusableMethods {
 
 
 
-    //291-340 Adem
 
 
 
@@ -316,6 +318,7 @@ public class ReusableMethods {
 
 
 
+    //321-370 Adem
 
 
 
@@ -338,7 +341,6 @@ public class ReusableMethods {
 
 
 
-    //341-390  Murat
 
 
 
@@ -366,6 +368,7 @@ public class ReusableMethods {
 
 
 
+    //371-420  Murat
 
 
 
@@ -388,7 +391,6 @@ public class ReusableMethods {
 
 
 
-    //391-440  Ayse
 
 
 
@@ -416,6 +418,7 @@ public class ReusableMethods {
 
 
 
+    //421-470  Ayse
 
 
 
@@ -438,7 +441,6 @@ public class ReusableMethods {
 
 
 
-    //441-490  Derya
 
 
 
@@ -466,6 +468,20 @@ public class ReusableMethods {
 
 
 
+    //471-520  Derya
+    public static void webElementsVerify(List<WebElement> elements, List<String> keywords) {
+        for (int i = 0; i < elements.size(); i++) {
+            String titleText = elements.get(i).getText();
+            assertTrue(containsAnyKeyword(titleText, keywords));
+        }
+    }
+    private static boolean containsAnyKeyword(String text, List<String> keywords) {
+        for (String keyword : keywords) {
+            if (text.contains(keyword)) {
+                return true;
+            }}
+        return false;
+    }
 
 
 
@@ -488,7 +504,6 @@ public class ReusableMethods {
 
 
 
-    //491 -540 Fatma
 
 
 
@@ -503,6 +518,7 @@ public class ReusableMethods {
 
 
 
+    //521 -570 Fatma
 
 
 
@@ -538,7 +554,6 @@ public class ReusableMethods {
 
 
 
-    //541-590  Seyhan
 
 
 
@@ -553,6 +568,7 @@ public class ReusableMethods {
 
 
 
+    //571-620  Seyhan
 
 
 
@@ -588,7 +604,21 @@ public class ReusableMethods {
 
 
 
-    //591 Mehmet Fatih
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //621 Mehmet Fatih
 
 
 

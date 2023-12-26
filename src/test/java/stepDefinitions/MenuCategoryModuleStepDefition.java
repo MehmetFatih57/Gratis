@@ -1,7 +1,25 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import pages.FooterPage;
+import pages.HeaderPage;
+import pages.HomePage;
+import pages.MenuCategoryPage;
+import utilities.Driver;
+import utilities.JSUtils;
+import utilities.ReusableMethods;
+import java.util.LinkedList;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 public class MenuCategoryModuleStepDefition {
     //50'ye kadar import kaymasi veya degisken tanimla
+    MenuCategoryPage menuCategoryPage = new MenuCategoryPage();
+    HomePage homePage  = new HomePage();
+    FooterPage footerPage = new FooterPage();
+    HeaderPage headerPage = new HeaderPage();
+    String dynamicXPath;
 
 
 
@@ -30,6 +48,7 @@ public class MenuCategoryModuleStepDefition {
 
 
 
+    //US03  51-400 arasi
 
 
 
@@ -48,7 +67,6 @@ public class MenuCategoryModuleStepDefition {
 
 
 
-    //US03  51-230 arasi
 
 
 
@@ -228,7 +246,6 @@ public class MenuCategoryModuleStepDefition {
 
 
 
-    //US05 231-410 arasi
 
 
 
@@ -381,6 +398,59 @@ public class MenuCategoryModuleStepDefition {
 
 
 
+    //US05 401-750 arasi
+    @Given("Web sayfasina gidilir.")
+    public void webSayfasinaGidilir() {
+        Driver.getDriver().get("https://www.gratis.com/");
+    }
+    @When("Anasayfanin gorunurlugu dogrulanir.")
+    public void anasayfaninGorunurluguDogrulanir() {
+        assertTrue(Driver.getDriver().getTitle().contains("Gratis | Türkiye'nin Kişisel Bakım Marketi"));
+    }
+    @Then("Moda ve Aksesuar modulu acilir.")
+    public void modaVeAksesuarModulunuAcilir() {
+        menuCategoryPage.modaVeAksesuarButon.click();
+        ReusableMethods.waitFor(1);
+        Driver.getDriver().navigate().refresh();
+    }
+    @When("Moda ve Aksesuar sayfasinin gorunurlugu dogrulanir.")
+    public void modaVeAksesuarSayfasininGorunurluguDogrulanir() {
+        ReusableMethods.waitFor(1);
+        assertTrue( menuCategoryPage.modaVeAksesuarVerify.isDisplayed());
+    }
+    @Then("{string} filtre secilir.")
+    public void altKategorilerFiltresindenBirFiltreSecilir(String text) {
+        dynamicXPath = "//app-custom-product-facet-navigation[@class='ng-star-inserted']/descendant::a[@data-cx-focus='" + text.replaceAll("\\[\\\\]", "") + "']";
+        menuCategoryPage.filtreList = Driver.getDriver().findElement(By.xpath(dynamicXPath));
+        JSUtils.clickElementByJS(menuCategoryPage.filtreList);
+    }
+    @When("Filtrenin {string} oldugu dogrulanir.")
+    public void filtreninUglunandigiDogrulanir(String fitreName) {
+        ReusableMethods.waitFor(1);
+        assertEquals(menuCategoryPage.filterValue.getText(), fitreName);
+    }
+    @Then("Filtre sonucu cikan urun listesi dogrulanir.")
+    public void filtreSonucuCikanUrunListesiDogrulanir() {
+        LinkedList<String> markaTexts = new LinkedList<>();
+        for (WebElement markaElement : menuCategoryPage.markalarList) {
+            markaTexts.add(markaElement.getText());
+        }
+        ReusableMethods.webElementsVerify(menuCategoryPage.urunBaslik, markaTexts);
+    }
+    @Then("Secilen filtre temzilenir.")
+    public void secilenFiltreTemzilenir() {
+        menuCategoryPage.filtreKapat.click();
+    }
+    @And("{string} kategori filtresinin temizlendigi dogrulanir.")
+    public void temizlendigiDogrulanir(String filtreName) {
+        dynamicXPath = "//app-custom-facet[@class='list-filter-cards expanded active focus-lock ng-star-inserted']/..//span[@class='label ng-star-inserted'][contains(text(),'" + filtreName + "')]";
+        menuCategoryPage.filtreList = Driver.getDriver().findElement(By.xpath(dynamicXPath));
+        assertTrue(menuCategoryPage.filtreList.isDisplayed());
+    }
+    @And("Web sayfasi kapatilir.")
+    public void webSayfasiKapatilir() {
+        Driver.closeDriver();
+    }
 
 
 
@@ -408,7 +478,6 @@ public class MenuCategoryModuleStepDefition {
 
 
 
-    //Us06 411-590 arasi
 
 
 
@@ -588,7 +657,6 @@ public class MenuCategoryModuleStepDefition {
 
 
 
-    //US07  591-770 arasi
 
 
 
@@ -680,6 +748,7 @@ public class MenuCategoryModuleStepDefition {
 
 
 
+    //Us06 751-1100 arasi
 
 
 
@@ -768,7 +837,618 @@ public class MenuCategoryModuleStepDefition {
 
 
 
-    //US08 771-950 arasi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //US07  1101-1450 arasi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //US08 1451-1800 arasi
 
 
 

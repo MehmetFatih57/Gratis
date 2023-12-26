@@ -5,34 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/FailedRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/Runner1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FavoriPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FiltrelemePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LinkPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SepeteEklemePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SosyalMedyaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/StokPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BildirimStepDefition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FavoriStepDefition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FiltrelemeStepDefition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SearcBoxStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SepeteEklemeStepDefition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SosyalMedyaStepDefition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StokStepDefition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Amazon/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BaslıkPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AkıllıSıralamaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ElektronikPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchBoxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GratisPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BildirimlerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FooterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FooterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HeaderPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStepDefition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AkilliAramaStepDefition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sırma/sırma.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/amazon.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US01 Kullanıcı  login olabilmeli/TC01-Kullanıcı login olabilmeli possitive scenario.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,23 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Srm/Desktop/GratisFramework/src/test/java/Gratis/runners",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Srm/Desktop/GratisFramework/src/test/java/Gratis/runners&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Srm\Desktop\GratisFramework\src\test\java\Gratis\runners" />
@@ -96,15 +76,15 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.stepDefinitions in task">
-    <configuration name="Feature: amazon" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC01 | Moda/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli.">
+    <configuration name="Feature: ModaVeAksesuarModulu" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/amazon.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="task" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: amazon" />
+      <option name="SUGGESTED_NAME" value="Feature: ModaVeAksesuarModulu" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -116,15 +96,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC01_Amazon_Urun_Arama_Sepete_Ekleme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC01 | Moda/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/amazon.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="task" />
-      <option name="NAME_FILTER" value="^TC01_Amazon_Urun_Arama_Sepete_Ekleme$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_Amazon_Urun_Arama_Sepete_Ekleme$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC01_Amazon_Urun_Arama_Sepete_Ekleme" />
+      <option name="NAME_FILTER" value="^TC01 \| Moda\/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 \| Moda\/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01 | Moda/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -136,16 +116,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC04 | Moda/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="task" />
+      <option name="NAME_FILTER" value="^TC04 \| Moda\/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC04 \| Moda\/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC04 | Moda/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Amazon.runners.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Amazon.runners" />
-      <option name="MAIN_CLASS_NAME" value="Amazon.runners.TestRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Runners" />
+      <option name="MAIN_CLASS_NAME" value="Runners.Runner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,28 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmazonLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AmazonApı.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AmazonApı" />
-      <option name="MAIN_CLASS_NAME" value="AmazonApı.AmazonLogin" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC01 | Moda/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli." />
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: ModaVeAksesuarModulu" />
+        <item itemvalue="Cucumber Java.Scenario: TC04 | Moda/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali." />
         <item itemvalue="JUnit.stepDefinitions in task" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="TestNG.AmazonLogin" />
       </list>
     </recent_temporary>
   </component>

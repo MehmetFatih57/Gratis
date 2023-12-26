@@ -4,6 +4,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
+import pages.HomePage;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,6 +15,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import java.util.function.Function;
+
+import static org.junit.Assert.assertTrue;
 
 public class ReusableMethods {
     /*HOW DO YOU GET SCREENSHOT?
@@ -174,11 +177,478 @@ public class ReusableMethods {
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("window.scrollBy(0,2500)");
         waitFor(2);
-
-    //sırma 178-190
-
-
     }
+    public static void login(String email, String password){
+        HomePage homePage= new HomePage();
+        JSUtils.clickElementByJS(homePage.loginButon);
+        ReusableMethods.waitFor(1);
+        JSUtils.clickElementByJS(homePage.girisYapButon);
+        ReusableMethods.waitFor(1);
+        homePage.eposta.sendKeys(email);
+        homePage.sifre.sendKeys(password);
+        JSUtils.clickElementByJS(homePage.girisButon);
+    }
+   //importtan kayan bosluk icin 219'a kadar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //220-270 Sirma
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //271-320 Esra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //321-370 Adem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //371-420  Murat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //421-470  Ayse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //471-520  Derya
+    public static void webElementsVerify(List<WebElement> elements, List<String> keywords) {
+        for (int i = 0; i < elements.size(); i++) {
+            String titleText = elements.get(i).getText();
+            assertTrue(containsAnyKeyword(titleText, keywords));
+        }
+    }
+    private static boolean containsAnyKeyword(String text, List<String> keywords) {
+        for (String keyword : keywords) {
+            if (text.contains(keyword)) {
+                return true;
+            }}
+        return false;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //521 -570 Fatma
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //571-620  Seyhan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //621 Mehmet Fatih
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

@@ -432,7 +432,7 @@ public class MenuCategoryModuleStepDefition {
     @Then("Filtre sonucu cikan urun listesi dogrulanir.")
     public void filtreSonucuCikanUrunListesiDogrulanir() {
         LinkedList<String> markaTexts = new LinkedList<>();
-        for (WebElement markaElement : menuCategoryPage.markalarList) {
+        for (WebElement markaElement : menuCategoryPage.kategoriList) {
             markaTexts.add(markaElement.getText());
         }
         ReusableMethods.webElementsVerify(menuCategoryPage.urunBaslik, markaTexts);
@@ -451,20 +451,20 @@ public class MenuCategoryModuleStepDefition {
     public void webSayfasiKapatilir() {
         Driver.closeDriver();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Then("Marka Filtereleri sonucu cikan urun listesi dogrulanir.")
+    public void marka_filtereleri_sonucu_cikan_urun_listesi_dogrulanir() {
+        LinkedList<String> markaTexts = new LinkedList<>();
+        for (WebElement markaElement : menuCategoryPage.markalarList) {
+            markaTexts.add(markaElement.getText());
+        }
+        ReusableMethods.webElementsVerify(menuCategoryPage.urunBaslik, markaTexts);
+    }
+    @Then("{string} marka filtresinin temizlendigi dogrulanir.")
+    public void marka_filtresinin_temizlendigi_dogrulanir(String filtreIsmi) {
+        dynamicXPath = "//app-custom-facet[@class='list-filter-cards expanded active multi-select focus-lock ng-star-inserted']/descendant:: span[(text()='" + filtreIsmi + "')]";
+        menuCategoryPage.filtreList = Driver.getDriver().findElement(By.xpath(dynamicXPath));
+        assertFalse(menuCategoryPage.filtreList.isSelected());
+    }
 
 
 

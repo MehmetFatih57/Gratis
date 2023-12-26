@@ -1,4 +1,3 @@
-@Tag
 Feature: US_05: Kullanıcı Moda/Aksesuar modülünde herhangi  bir üründe filtreleme yapabilmeli.
 
   Background:
@@ -24,3 +23,25 @@ Feature: US_05: Kullanıcı Moda/Aksesuar modülünde herhangi  bir üründe fil
       | Çorap                   |
       | Şemsiye                 |
       | Aksesuar                |
+
+  Scenario Outline: TC02 | Moda/Aksesuar modülu gorulebilmeli ve Markalar filtresi uygulanabilmeli ve silinebilmeli.
+    Then "<Marka Filtereleri>" filtre secilir.
+    When Filtrenin "<Marka Filtereleri>" oldugu dogrulanir.
+    Then Marka Filtereleri sonucu cikan urun listesi dogrulanir.
+    Then Secilen filtre temzilenir.
+    Then  "<Marka Filtereleri>" marka filtresinin temizlendigi dogrulanir.
+    And Web sayfasi kapatilir.
+    Examples:
+      | Marka Filtereleri |
+      | Eklips            |
+      | Penti             |
+      | Marie Claire      |
+      | Aqua di Polo      |
+      | Ritüel Box        |
+      | Peddon            |
+      | Pierre Keys       |
+      | Nascita           |
+      | Gratis            |
+      | Getwell           |
+      | Nearsis           |
+      | Pink Ginger       |

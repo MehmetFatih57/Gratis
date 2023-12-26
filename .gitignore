@@ -39,3 +39,5 @@ build/
 
 configuration.properties
 *.properties
+.idea/workspace.xml
+

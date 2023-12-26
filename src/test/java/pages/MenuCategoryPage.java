@@ -105,6 +105,7 @@ public class MenuCategoryPage {
     @FindBy(xpath = "//app-custom-active-facets/descendant:: span[@class='filter-value']") public WebElement filterValue;
     @FindBy(xpath = "//app-custom-product-grid-item[@class='col-xs-6 col-sm-4 col-md-4 ng-star-inserted']/descendant:: h5") public List<WebElement> urunBaslik;
     @FindBy(xpath = "//app-custom-facet[@class='list-filter-cards expanded active multi-select focus-lock ng-star-inserted']//div[@class='head ng-star-inserted']/..//span[@class='label ng-star-inserted']") public List<WebElement> markalarList;
+    @FindBy(xpath = "//app-custom-facet[@class='list-filter-cards expanded active focus-lock ng-star-inserted is-locked']//span[@class='title'][normalize-space()='Alt Kategoriler']/../..//span[@class='label ng-star-inserted']") public List<WebElement> kategoriList;
     @FindBy(css = ".filter-close") public WebElement filtreKapat;
     @FindBy(xpath = "//cx-page-slot[@class='ProductLeftRefinements has-components']/descendant:: input[@placeholder='En az']")public WebElement enAzFiyat;
     @FindBy(xpath = "//div[@class='col-md-3 col-sm-3 col-xs-12 mobile-hidden']/descendant:: span[@aria-valuenow='8']") public WebElement enAzFiyatSlideBar;

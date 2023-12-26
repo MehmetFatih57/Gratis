@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon" />
+    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +72,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC04 | Moda/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali.">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC02 | Moda/Aksesuar modülu gorulebilmeli ve Markalar filtresi uygulanabilmeli ve silinebilmeli.">
     <configuration name="Feature: ModaVeAksesuarModulu" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" />
@@ -96,6 +101,26 @@
       <option name="NAME_FILTER" value="^TC01 \| Moda\/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli\.$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 \| Moda\/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli\.$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC01 | Moda/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli." />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC02 | Moda/Aksesuar modülu gorulebilmeli ve Markalar filtresi uygulanabilmeli ve silinebilmeli." type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="task" />
+      <option name="NAME_FILTER" value="^TC02 \| Moda\/Aksesuar modülu gorulebilmeli ve Markalar filtresi uygulanabilmeli ve silinebilmeli\.$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02 \| Moda\/Aksesuar modülu gorulebilmeli ve Markalar filtresi uygulanabilmeli ve silinebilmeli\.$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC02 | Moda/Aksesuar modülu gorulebilmeli ve Markalar filtresi uygulanabilmeli ve silinebilmeli." />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -142,27 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stepDefinitions in task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stepDefinitions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stepDefinitions" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC02 | Moda/Aksesuar modülu gorulebilmeli ve Markalar filtresi uygulanabilmeli ve silinebilmeli." />
         <item itemvalue="Cucumber Java.Scenario: TC04 | Moda/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali." />
         <item itemvalue="Cucumber Java.Scenario: TC01 | Moda/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli." />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: ModaVeAksesuarModulu" />
-        <item itemvalue="JUnit.stepDefinitions in task" />
       </list>
     </recent_temporary>
   </component>

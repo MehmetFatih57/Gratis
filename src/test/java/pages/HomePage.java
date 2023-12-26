@@ -1,15 +1,18 @@
 package pages;
 
+import com.google.j2objc.annotations.Weak;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class HomePage {
-    public HomePage() {
-        PageFactory.initElements(Driver.getDriver(), this);
-        //@FindBy(xpath = "//table/thead/tr/th[1]")
-        //public WebElement name;
+    public HomePage() {PageFactory.initElements(Driver.getDriver(), this);}
+    //@FindBy(xpath = "//table/thead/tr/th[1]") public WebElement name;                 ORNEK
 
-    }
+
+
+
 
 
 
@@ -99,5 +102,177 @@ public class HomePage {
 
 
     //US02 101-180 arasi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //US09  181-260 arasi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @FindBy(css = "[class='log-box dropper ng-star-inserted']")public WebElement loginButon;
+    @FindBy(xpath = "//ul[@_ngcontent-gratis-c220]/descendant:: a[@href='/login']")public WebElement girisYapButon;
+    @FindBy(css = "input[formcontrolname='userId']")public WebElement eposta;
+    @FindBy(css = "input[formcontrolname='password']")public WebElement sifre;
+    @FindBy(css = "button[class='round-btns']")public WebElement girisButon;
+
 
 }

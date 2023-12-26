@@ -1,0 +1,8 @@
+
+HeaderPage        =>  US04  | US010
+
+HomePage          =>  US01  | US02  | US09
+
+MenuCategoryPage  =>  US03  | US05  | US06  |  US07  |  US08
+
+FooterPage        =>  US011

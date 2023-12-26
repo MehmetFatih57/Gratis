@@ -1,18 +1,10 @@
 package stepDefinitions;
-
 import io.cucumber.java.en.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import pages.FooterPage;
-import pages.HeaderPage;
-import pages.HomePage;
-import pages.MenuCategoryPage;
-import utilities.Driver;
-import utilities.JSUtils;
-import utilities.ReusableMethods;
+import org.openqa.selenium.*;
+import pages.*;
+import utilities.*;
+import static org.junit.Assert.*;
 import java.util.LinkedList;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 public class MenuCategoryModuleStepDefition {
     //50'ye kadar import kaymasi veya degisken tanimla
     MenuCategoryPage menuCategoryPage = new MenuCategoryPage();
@@ -20,6 +12,14 @@ public class MenuCategoryModuleStepDefition {
     FooterPage footerPage = new FooterPage();
     HeaderPage headerPage = new HeaderPage();
     String dynamicXPath;
+
+
+
+
+
+
+
+
 
 
 

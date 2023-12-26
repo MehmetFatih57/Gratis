@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/FailedRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/Runner1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FavoriPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FiltrelemePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LinkPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SepeteEklemePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SosyalMedyaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/StokPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BildirimStepDefition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FavoriStepDefition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FiltrelemeStepDefition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SearcBoxStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SepeteEklemeStepDefition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SosyalMedyaStepDefition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StokStepDefition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Amazon/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BaslıkPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AkıllıSıralamaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ElektronikPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchBoxPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GratisPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BildirimlerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeStepDefition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/AkilliAramaStepDefition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Sırma/sırma.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/amazon.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/US01 Kullanıcı  login olabilmeli/TC01-Kullanıcı login olabilmeli possitive scenario.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +52,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2XZ0YO3glb22881rkg2tnIttSUF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,8 +73,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Srm/Desktop/akifFramework",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Srm/Desktop/GratisFramework/src/test/java/Gratis/runners",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -55,16 +82,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Srm\Desktop\GratisFramework\src\test\java\Gratis\runners" />
       <recent name="C:\Users\akifr\IdeaProjects\Bimser Task Project" />
       <recent name="C:\Users\akifr\IdeaProjects\Bimser Task Project\src\test\java" />
       <recent name="C:\Users\akifr\IdeaProjects\Bimser Task Project\src\test\java\Amazon\runners" />
       <recent name="C:\Users\akifr\IdeaProjects\Bimser Task Project\src\test\java\Amazon" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Srm\Desktop\GratisFramework\src\test\resources\features\US01 Kullanıcı  login olabilmeli" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="stepDefinitions" />
+      <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="JUnit.stepDefinitions in task">
     <configuration name="Feature: amazon" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/amazon.feature" />
@@ -119,6 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stepDefinitions in task" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stepDefinitions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stepDefinitions" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AmazonLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="task" />
       <extension name="coverage">
@@ -138,6 +184,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.stepDefinitions in task" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="TestNG.AmazonLogin" />
       </list>

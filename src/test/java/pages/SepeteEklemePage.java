@@ -3,19 +3,13 @@ package pages;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class ElektronikPages {
-    public ElektronikPages() {
+public class SepeteEklemePage {
+    public SepeteEklemePage() {
         PageFactory.initElements(Driver.getDriver(), this);
-    }
-
-  //adem-
-
-
-
-
-
-
+        //@FindBy(xpath = "//table/thead/tr/th[1]")
+        //public WebElement name;
 
 
     }
 
+}

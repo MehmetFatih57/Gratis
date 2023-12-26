@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" afterDir="false" />
-    </list>
+    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

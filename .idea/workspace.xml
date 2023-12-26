@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FooterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FooterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HeaderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +67,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC01 | Moda/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli.">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC04 | Moda/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali.">
     <configuration name="Feature: ModaVeAksesuarModulu" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" />
@@ -167,10 +158,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC04 | Moda/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali." />
         <item itemvalue="Cucumber Java.Scenario: TC01 | Moda/Aksesuar modülu gorulebilmeli ve Alt kategoriler filtresi uygulanabilmeli ve silinebilmeli." />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: ModaVeAksesuarModulu" />
-        <item itemvalue="Cucumber Java.Scenario: TC04 | Moda/Aksesuar modülu gorulebilmeli ve Fiyat filtresinde fiyat cubugunda belirtilen en az fiyat altinda filtreleme yapilamamali." />
         <item itemvalue="JUnit.stepDefinitions in task" />
       </list>
     </recent_temporary>

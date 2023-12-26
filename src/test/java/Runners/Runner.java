@@ -14,8 +14,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/failedRerun.txt"
         },
         features = "src/test/resources/features",
-        glue = "stepDefinitions",  //!!!KULLANDIKTAN SONRA BOS BIRAKALIM
-        tags = "@Tag",
+        glue = "stepDefinitions",
+        tags = "",  //!!!KULLANDIKTAN SONRA BOS BIRAKALIM
         dryRun =false
 )
 public class Runner {

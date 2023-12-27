@@ -619,7 +619,24 @@ public class ReusableMethods {
 
 
     //621 Mehmet Fatih
-
+    public static void bekle(int saniye) {
+        try {
+            Thread.sleep(saniye * 1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public static String tumSayfaResmi(String name) {
+        String tarih = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
+        TakesScreenshot ts = (TakesScreenshot) Driver.getDriver();
+        String dosyaYolu = System.getProperty("user.dir") + "/target/Screenshots/" + name + tarih + ".png";
+        try {
+            FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE), new File(dosyaYolu));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        return dosyaYolu;
+    }
 
 
 

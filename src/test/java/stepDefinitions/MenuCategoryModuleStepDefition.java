@@ -1,6 +1,8 @@
 package stepDefinitions;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import pages.*;
 import utilities.*;
 import static org.junit.Assert.*;
@@ -12,6 +14,8 @@ public class MenuCategoryModuleStepDefition {
     FooterPage footerPage = new FooterPage();
     HeaderPage headerPage = new HeaderPage();
     String dynamicXPath;
+    Actions actions = new Actions(Driver.getDriver());
+    JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
 
 
 
@@ -1444,11 +1448,79 @@ public class MenuCategoryModuleStepDefition {
 
 
 
-
-
-
-
     //US08 1451-1800 arasi
+    @Given("kullanici {string} sayfasina properties ile git")
+    public void kullanici_sayfasina_properties_ile_git(String url) {
+        Driver.getDriver().get(ConfigurationReader.getProperty(url));
+        ReusableMethods.bekle(8);
+    }
+    @Then("kullanici anaSayfaya gittigini dogrula")
+    public void kullanici_ana_sayfaya_gittigini_dogrula() {
+        Assert.assertEquals(menuCategoryPage.anaSayfaVerify.getText() , "Giriş Yap");
+        ReusableMethods.bekle(2);
+    }
+    @When("Istedigi bir kategori basligina gelir")
+    public void istedigi_bir_kategori_basligina_gelir() {
+        actions.moveToElement(menuCategoryPage.parfumDeodorant).perform();
+        ReusableMethods.bekle(2);
+    }
+    @When("Acilan kategori listesinde istedigi bir kategoriye tiklar")
+    public void acilan_kategori_listesinde_istedigi_bir_kategoriye_tiklar() {
+        js.executeScript("arguments[0].click()" , menuCategoryPage.erkekParfüm);
+        ReusableMethods.bekle(2);
+    }
+    @Then("Istedigi kategoride oldugunu dogrular")
+    public void istedigi_kategoride_oldugunu_dogrular() {
+        Assert.assertEquals(menuCategoryPage.erkekParfümVerify.getText() , "Erkek Parfüm");
+        System.out.println("Kategori Ismi : " + menuCategoryPage.erkekParfümVerify.getText());
+    }
+    @When("Kullanici bulundugu kategoriden bir urun secer")
+    public void kullanici_bulundugu_kategoriden_bir_urun_secer() {
+        js.executeScript("arguments[0].click()" , menuCategoryPage.urun);
+        ReusableMethods.bekle(2);
+    }
+    @Then("Sectigi urunun bilgilerininin gorunurlugunu dogrular")
+    public void sectigi_urunun_bilgilerininin_gorunurlugunu_dogrular() {
+        Assert.assertTrue(menuCategoryPage.urunVerify.isDisplayed());
+        ReusableMethods.bekle(2);
+        System.out.println("Urun Bilgileri : " + menuCategoryPage.urunVerify.getText());
+
+        System.out.println();
+    }
+    @Then("Kullanici bir urunden maximum sayiya ulasana kadar sepete ekler")
+    public void kullanici_bir_urunden_maximum_sayiya_ulasana_kadar_sepete_ekler() {
+        int max = 4;
+        int sayac = 0;
+        for (int i = 1; i <= max; i++) {
+            js.executeScript("arguments[0].click()", menuCategoryPage.button);
+            ReusableMethods.bekle(3);
+            sayac++;
+            if (sayac >= max) {
+                System.out.println("Maximum sayiya ulastin" + " " + sayac);
+            } else {
+                System.out.println("Maximum sayiya ulasilmadi" + " " + sayac);
+            }
+            System.out.println(sayac);
+            js.executeScript("arguments[0].click()" , menuCategoryPage.sepeteEkle);
+        }
+    }
+    @Then("Kullanici maximum sayida urun ekledigini dogrular")
+    public void kullanici_maximum_sayida_urun_ekledigini_dogrular() {
+        Assert.assertTrue(menuCategoryPage.messageVerify.isDisplayed() , "Basardin");
+        System.out.println("Sepet Mesaji : " + menuCategoryPage.messageVerify.getText());
+    }
+    @And("kullanici {int} saniye bekle")
+    public void kullaniciSaniyeBekle(int sayi) {
+        try {
+            Thread.sleep(sayi*1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    @Then("Sayfayi kapatir")
+    public void sayfayi_kapatir() {
+        Driver.closeDriver();
+    }
 
 
 

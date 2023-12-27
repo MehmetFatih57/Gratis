@@ -178,7 +178,6 @@ public class MenuCategoryPage {
 
 
 
-
     //US06 181-260 arasi
 
 
@@ -340,6 +339,14 @@ public class MenuCategoryPage {
 
 
     //US08 341- 420 arasi
-
+    @FindBy(xpath = "(//*[text()='Giriş Yap'])[2]") public WebElement anaSayfaVerify;
+    @FindBy(xpath = "(//*[text()='Parfüm & Deodorant'])[2]") public WebElement parfumDeodorant;
+    @FindBy(xpath = "(//*[text()='Erkek Parfüm'])[2]") public WebElement erkekParfüm;
+    @FindBy(xpath = "(//h1)[1]") public WebElement erkekParfümVerify;
+    @FindBy(xpath = "(//h5)[1]") public WebElement urun;
+    @FindBy(xpath = "(//h1)[1]") public WebElement urunVerify;
+    @FindBy(xpath = "(//*[@type='button'])[4]") public WebElement button;
+    @FindBy(xpath = "//*[@type='submit']") public WebElement sepeteEkle;
+    @FindBy(xpath = "//*[@class='alert alert-danger ng-star-inserted']") public WebElement messageVerify;
 
 }

@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features.US08 Kullanıcı herhangi bir kategoride seçeceği bir üründe maximum sayi da alisveris yapabilmeli/TC001.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features.US10 Kullanıcı favori ürünlerim kısmında listeleme/ düzenleme ve silme işlemleri yapabilmeli/TC001.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features.US10 Kullanıcı favori ürünlerim kısmında listeleme/ düzenleme ve silme işlemleri yapabilmeli/TC002.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HeaderPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HeaderModuleStepDefition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HeaderModuleStepDefition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features.US05 Kullanici Filtre Yapabilmeli/ModaVeAksesuarModulu.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +35,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
   <component name="ProjectId" id="2XZ0YO3glb22881rkg2tnIttSUF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,23 +43,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Srm/Desktop/GratisFramework/src/test/java/Gratis/runners&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Srm\Desktop\GratisFramework\src\test\java\Gratis\runners" />
@@ -163,6 +154,17 @@
       <option name="PACKAGE_NAME" value="Runners" />
       <option name="MAIN_CLASS_NAME" value="Runners.Runner" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

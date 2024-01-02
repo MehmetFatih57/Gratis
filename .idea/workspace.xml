@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +44,8 @@
       <recent name="C:\Users\akifr\IdeaProjects\Bimser Task Project\src\test\java\Amazon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Gratis\src\test\resources\US10 Kullanıcı favori ürünlerim kısmında listeleme" />
+      <recent name="D:\Gratis\src\test\resources\features" />
       <recent name="C:\Users\Srm\Desktop\GratisFramework\src\test\resources\features\US01 Kullanıcı  login olabilmeli" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">

@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d85e6e7-a1ef-491a-8179-89f0ee0ea1f7" name="Changes" comment="amazon">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features.US08 Kullanıcı herhangi bir kategoride seçeceği bir üründe maximum sayi da alisveris yapabilmeli/TC001.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features.US10 Kullanıcı favori ürünlerim kısmında listeleme/ düzenleme ve silme işlemleri yapabilmeli/TC001.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features.US10 Kullanıcı favori ürünlerim kısmında listeleme/ düzenleme ve silme işlemleri yapabilmeli/TC002.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HeaderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MenuCategoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HeaderModuleStepDefition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HeaderModuleStepDefition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/MenuCategoryModuleStepDefition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
